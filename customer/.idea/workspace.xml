@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02074939-d724-45f7-96fb-6ecbbf15b52e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../customer/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/businessdomain/product/src/main/java/com/paymentchain/product/controller/ProductRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/businessdomain/product/src/main/java/com/paymentchain/product/controller/ProductRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/businessdomain/product/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/businessdomain/product/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="d4e48924-29c6-4b8b-aece-88610503eb49" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,14 +40,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2I2qzci0T2HAeEXrAOIdxBS8YUg" />
+  <component name="ProjectId" id="2I13saswwa547oz8ACPCXMHytTU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -66,7 +50,6 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -79,21 +62,13 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "show.run.dashboard.notification": "false",
-    "spring.configuration.checksum": "a07a12f26cf1bf463cce214a71398379"
+    "spring.configuration.checksum": "91ec1f9324753048c0096d036a694f86"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.ProductApplication">
+  <component name="RunManager">
     <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="customer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.paymentchain.customer.CustomerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="product" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.paymentchain.product.ProductApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,15 +77,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="02074939-d724-45f7-96fb-6ecbbf15b52e" name="Changes" comment="" />
-      <created>1669390292926</created>
+      <changelist id="d4e48924-29c6-4b8b-aece-88610503eb49" name="Changes" comment="" />
+      <created>1669335470363</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1669390292926</updated>
-      <workItem from="1669390294517" duration="708000" />
-      <workItem from="1669393890927" duration="930000" />
-      <workItem from="1669397074543" duration="6309000" />
-      <workItem from="1669602212970" duration="1432000" />
+      <updated>1669335470363</updated>
+      <workItem from="1669335472897" duration="63000" />
+      <workItem from="1669335586336" duration="573000" />
+      <workItem from="1669339553554" duration="1789000" />
+      <workItem from="1669602126310" duration="88000" />
     </task>
     <servers />
   </component>
@@ -127,8 +102,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

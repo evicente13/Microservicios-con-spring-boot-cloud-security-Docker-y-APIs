@@ -7,6 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/product")
@@ -24,9 +25,24 @@ public class ProductRestController {
         return productRepository.findById(id).get();
     }
 
+    @PutMapping("/{id}")
+    public ResponseEntity<Product> put(@PathVariable long id, @RequestBody Product product) {
+        Product product1 = productRepository.save(product);
+        return ResponseEntity.ok(product1);
+    }
+
     @PostMapping
     public ResponseEntity<Product> post(@RequestBody Product product) {
         Product product1 = productRepository.save(product);
         return ResponseEntity.ok(product1);
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Product> delete(@PathVariable long id) {
+        Optional<Product> findById = productRepository.findById(id);
+        if (findById.get() != null) {
+            productRepository.delete(findById.get());
+        }
+        return ResponseEntity.ok().build();
     }
 }
