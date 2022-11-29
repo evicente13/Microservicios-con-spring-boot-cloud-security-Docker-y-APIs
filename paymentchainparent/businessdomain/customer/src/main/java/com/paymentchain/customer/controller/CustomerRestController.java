@@ -115,11 +115,10 @@ public class CustomerRestController {
         Customer customer = customerRepository.findByCode(code);
         List<CustomerProduct> products = customer.getProducts();
         products.forEach(x -> {
-            String productName = getProductName(x.getId());
+            String productName = getProductName(x.getProductId());
             x.setProductName(productName);
         });
         return customer;
-
     }
 
     private String getProductName(long id) {
